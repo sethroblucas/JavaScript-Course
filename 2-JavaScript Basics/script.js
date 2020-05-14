@@ -199,3 +199,131 @@ if (age < 13) {
 
 //************************************************* */
 // THE TERNANRY OPERATOR AND SWITCH STATEMENTS
+
+// var firstName = "John";
+// var age = 14;
+
+// // Ternary operator
+// age >= 18
+//   ? console.log(firstName + " drinks beer.")
+//   : console.log(firstName + " drinks juice.");
+
+// var drink = age >= 18 ? "beer" : "juice";
+// console.log(drink);
+
+// /* if (age >= 18) {
+//   var drink = "beer";
+// } else {
+//   var drink = "juice";
+// } */
+
+// // switch statement
+// var job = "instructor";
+// switch (job) {
+//   case "teacher":
+//   case "instructor":
+//     console.log(firstName + " teaches kids how to code.");
+//     break;
+//   case "driver":
+//     console.log(firstName + " drives.");
+//     break;
+//   case "designer":
+//     console.log(firstName + " designs beautiful websites.");
+//     break;
+//   default:
+//     console.log(firstName + " does something else.");
+// }
+
+// switch (true) {
+//   case age < 13:
+//     console.log(firstName + " is a boy.");
+//     break;
+//   case age >= 13 && age < 20:
+//     console.log(firstName + " is a teen.");
+//     break;
+//   case age >= 2 && age < 30:
+//     console.log(firstName + " is a young man.");
+//     break;
+//   default:
+//     console.log(firstName + " is a man.");
+// }
+
+//************************************************* */
+// TRUTHY AND FALSY VALUES AND EQUALITY OPERATORS
+
+// falsy values: undefined, null, 0, '', NaN
+// truthy values: NOT falsy values
+
+/* var height;
+
+height = 223;
+
+if (height || height === 0) {
+  console.log("var is defined");
+} else {
+  console.log("var is not defined");
+}
+
+// Equality operators
+if (height == "223") {
+  console.log("The == operator does type coercion!");
+} */
+
+//************************************************* */
+
+// CODING CHALLENGE #2
+
+/*
+John and Mike both play basketball in different teams. In the latest 3 games, John's team scored 89, 120 and 103 points, while Mike's team scored 116, 94 and 123 points.
+1. Calculate the average score for each team
+2. Decide which teams wins in average (highest average score), and print the winner to the console. Also include the average score in the output.
+3. Then change the scores to show different winners. Don't forget to take into account there might be a draw (the same average score)
+4. EXTRA: Mary also plays basketball, and her team scored 97, 134 and 105 points. Like before, log the average winner to the console. HINT: you will need the && operator to take the decision. If you can't solve this one, just watch the solution, it's no problem :)
+5. Like before, change the scores to generate different winners, keeping in mind there might be draws.
+GOOD LUCK 😀
+*/
+
+// STEP #1
+/* var johnScore1 = 150;
+var johnScore2 = 120;
+var johnScore3 = 98;
+
+var johnAverage = (johnScore1 + johnScore2 + johnScore3) / 3;
+console.log(johnAverage);
+
+var mikeScore1 = 114;
+var mikeScore2 = 182;
+var mikeScore3 = 127;
+
+var mikeAverage = (mikeScore1 + mikeScore2 + mikeScore3) / 3;
+console.log(mikeAverage);
+
+// STEP #2
+if (johnAverage > mikeAverage) {
+  console.log("John's average score is higher at " + johnAverage);
+} else if (johnAverage == mikeAverage) {
+  console.log("Both John and Mike's teams averaged the same");
+} else {
+  console.log("Mike's average score is higher at " + mikeAverage);
+}
+
+// STEP 3
+var maryScore1 = 97;
+var maryScore2 = 134;
+var maryScore3 = 105;
+
+var maryAverage = (maryScore1 + maryScore2 + maryScore3) / 3;
+console.log(maryAverage);
+
+if (maryAverage > johnAverage && maryAverage > mikeAverage) {
+  console.log("Mary's average score is higher at " + maryAverage);
+} else if (johnAverage > maryAverage && johnAverage > mikeAverage) {
+  console.log("John's average score is higher at " + johnAverage);
+} else if (johnAverage == maryAverage && johnAverage == mikeAverage) {
+  console.log("There is a draw!");
+} else {
+  console.log("Mikes's average score is higher at " + mikeAverage);
+} */
+
+//************************************************* */
+// FUNCTIONS
